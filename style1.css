@@ -44,9 +44,14 @@ body {
 }
 
 section {
-    flex-direction: row;
     display: block;
     background-color: gray;
     padding-top: 16px;
     text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.t1 {
+    background-color: rgb(255, 70, 85);
 }
