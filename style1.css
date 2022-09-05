@@ -32,27 +32,58 @@ a {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: rgb(255, 70, 85);
 }
 
 body {
     display: flex;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .headline {
     background-color: rgb(255, 70, 85);
-    background-origin: content-box;
+    text-align: center;
+    padding: 5px;
+    width: 10%;
+    margin-left: 45%;
+    font-size: 40px;
+    border-radius: 20px;
 }
 
 section {
     display: inline-block;
     background-color: gray;
-    padding-top: 16px;
+    padding-top: 25px;
     text-align: center;
     margin: 0;
     width: 100%;
 }
 
 .t1 {
-    background-color: lightblue;
+    background-color: white;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.t2 {
+    background-color: white;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    height: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.b1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skins {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
 }
