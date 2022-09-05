@@ -41,10 +41,11 @@ body {
 
 .headline {
     background-color: rgb(255, 70, 85);
+    background-origin: content-box;
 }
 
 section {
-    display: block;
+    display: inline-block;
     background-color: gray;
     padding-top: 16px;
     text-align: center;
@@ -53,5 +54,5 @@ section {
 }
 
 .t1 {
-    background-color: rgb(255, 70, 85);
+    background-color: lightblue;
 }
