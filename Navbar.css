@@ -1,0 +1,42 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.active {
+    background-color: rgb(255, 70, 85);
+}
+
+li a:hover {
+    background-color: rgb(255, 70, 85);
+}
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: gray;
+}
