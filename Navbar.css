@@ -9,12 +9,12 @@
     width: 100%;
 }
 
-li {
+.navbar li {
     display: inline;
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;

@@ -2,9 +2,18 @@
     background-color: rgb(255, 70, 85);
     text-align: center;
     padding: 10px;
-    width: 100%;
-    margin-left: 320%;
-    margin-top: 50px;
+    width: 10%;
+    margin-left: 40%;
+    margin-top: 3%;
     font-size: 40px;
     border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+}
+
+section {
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
 }
