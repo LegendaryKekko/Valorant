@@ -53,6 +53,26 @@ section {
     scale: 1.05;
 }
 
+.t2:hover {
+    scale: 1.05;
+}
+
+.t3:hover {
+    scale: 1.05;
+}
+
+.t4:hover {
+    scale: 1.05;
+}
+
+.headline:hover {
+    scale: 1.05;
+}
+
+.hscreen:hover {
+    scale: 1.05;
+}
+
 .t2 {
     background-color: white;
     width: 85%;
@@ -68,6 +88,7 @@ section {
 
 .b2 {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
 }
@@ -75,16 +96,21 @@ section {
 .t3 {
     background-color: white;
     margin: 20px;
+    margin-left: 5%;
+    position: absolute;
+    top: 92%;
+    left: 20%;
     padding: 1%;
     border-radius: 20px;
     font-size: 20px;
     box-shadow: -5px 5px 5px;
-    text-align: left;
+    text-align: center;
     width: 33%;
+    height: 15%;
+    transform: translate(-50%, -50%);
 }
 
 .card {
-    position: absolute;
     transform: translate(-50%, -50%);
     transition: 0.8s;
     transform-style: preserve-3d;
@@ -99,21 +125,31 @@ section {
     box-sizing: border-box;
     width: 100%;
     height: 50%;
+    backface-visibility: hidden;
+    margin: auto;
 }
 
 .flip-card-back {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transform: rotateY(180deg);
     width: 100%;
     height: 100%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
 }
 
 .t4 {
     background-color: white;
     width: 18%;
-    margin-top: 50px;
+    margin-top: 48px;
+    margin-left: 50%;
     text-align: center;
     padding: 1%;
     height: 8%;
