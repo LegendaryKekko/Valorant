@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Valorant;
+    src: url(Valorant\ Font.ttf);
+}
+
 .headline {
+    font-family: 'Valorant';
     background-color: rgb(255, 70, 85);
     text-align: center;
     padding: 10px;

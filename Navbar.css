@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Valorant;
+    src: url(Valorant\ Font.ttf);
+}
+
 .navbar {
+    font-family: 'Valorant';
     list-style-type: none;
     margin: 0;
     padding: 0;
