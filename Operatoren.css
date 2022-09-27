@@ -8,43 +8,36 @@
     background-color: rgb(255, 70, 85);
     text-align: center;
     padding: 10px;
-    width: 15%;
-    margin-left: 40%;
+    width: fit-content;
+    align-self: center;
     margin-top: 3%;
     font-size: 40px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
 }
 
-section {
-    display: inline-block;
-    padding-top: 15px;
-    text-align: center;
-    margin: 0;
-    width: 100%;
-}
-
 h2 {
     font-family: 'Valorant';
     font-size: 30px;
     background-color: rgb(255, 70, 85);
-    width: 12%;
+    width: fit-content;
     padding: 8px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
-    margin-left: 42%;
     margin-top: 40px;
+    align-self: center;
 }
 
 h3 {
+    font-family: 'Valorant';
     font-size: 25px;
     background-color: rgb(255, 70, 85);
-    width: 8.5%;
+    width: fit-content;
     padding: 5px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
     margin-top: 50px;
-    margin-left: 44%;
+    align-self: center;
 }
 
 p {

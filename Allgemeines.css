@@ -8,20 +8,12 @@ ont-face {
     background-color: rgb(255, 70, 85);
     text-align: center;
     padding: 10px;
-    width: 16%;
-    margin-left: 40%;
+    width: fit-content;
+    align-self: center;
     margin-top: 3%;
     font-size: 40px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
-}
-
-section {
-    display: inline-block;
-    padding-top: 15px;
-    text-align: center;
-    margin: 0;
-    width: 100%;
 }
 
 .b1 {
@@ -45,12 +37,12 @@ section {
 
 .t1 {
     background-color: white;
-    width: 85%;
+    width: fit-content;
     margin-top: 10%;
     margin-left: 20px;
     margin-right: 20px;
     padding: 5%;
-    height: 22%;
+    height: fit-content;
     border-radius: 20px;
     font-size: 20px;
     box-shadow: -5px 5px 5px;
@@ -58,8 +50,8 @@ section {
 
 .t2 {
     background-color: white;
-    width: 85%;
-    height: 16%;
+    width: fit-content;
+    height: fit-content;
     margin-top: 15%;
     margin-left: 20px;
     margin-right: 20px;
@@ -67,30 +59,6 @@ section {
     border-radius: 20px;
     font-size: 20px;
     box-shadow: -5px 5px 5px;
-}
-
-.t1:hover {
-    scale: 1.05;
-}
-
-.t2:hover {
-    scale: 1.05;
-}
-
-.t3:hover {
-    scale: 1.05;
-}
-
-.t4:hover {
-    scale: 1.05;
-}
-
-.headline:hover {
-    scale: 1.05;
-}
-
-.hscreen:hover {
-    scale: 1.05;
 }
 
 .b2 {
@@ -154,7 +122,7 @@ section {
 
 .t4 {
     background-color: white;
-    width: 18%;
+    width: fit-content;
     margin-top: 4px;
     margin-left: 50%;
     text-align: center;
