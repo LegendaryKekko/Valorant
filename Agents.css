@@ -26,18 +26,6 @@ h1 {
     margin-top: 30px;
 }
 
-p {
-    background-color: white;
-    font-size: 20px;
-    box-shadow: -5px 5px 5px;
-    border-radius: 20px;
-    padding: 7px;
-    margin-top: 0;
-    margin-right: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 img:hover {
     scale: 1.1;
     cursor: pointer;
@@ -51,4 +39,33 @@ img:hover {
 
 .util {
     margin-top: 75px;
+}
+
+.hover {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.popup {
+    visibility: hidden;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    left: 100px;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.hover .popup::after {
+    content: "";
+    position: absolute;
+}
+
+.hover:hover .popup {
+    visibility: visible;
+    opacity: 1;
 }
