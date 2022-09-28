@@ -37,3 +37,18 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+.util {
+    margin-top: 75px;
+}
