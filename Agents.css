@@ -54,10 +54,11 @@ img:hover {
     position: absolute;
     opacity: 0;
     left: 100px;
-    width: fit-content;
+    width: 700px;
     height: fit-content;
     padding: 7px;
     border-radius: 20px;
+    margin-right: 50px;
 }
 
 .hover .popup::after {
