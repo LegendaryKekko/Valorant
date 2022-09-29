@@ -26,9 +26,10 @@ h1 {
     margin-top: 30px;
 }
 
-img:hover {
+.util .hover img:hover {
     scale: 1.1;
     cursor: pointer;
+    box-shadow: -5px 5px 5px;
 }
 
 .pic {
@@ -60,6 +61,7 @@ img:hover {
     border-radius: 20px;
     margin-right: 50px;
     box-shadow: -5px 5px 5px;
+    transform: translateX(10px) translateY(-10px);
 }
 
 .hover .popup::after {
@@ -70,6 +72,10 @@ img:hover {
 .hover:hover .popup {
     visibility: visible;
     opacity: 1;
+}
+
+.hover:hover {
+    transform: translateX(-15px) translateY(-10px);
 }
 
 table {
