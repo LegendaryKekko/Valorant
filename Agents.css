@@ -59,6 +59,7 @@ img:hover {
     padding: 7px;
     border-radius: 20px;
     margin-right: 50px;
+    box-shadow: -5px 5px 5px;
 }
 
 .hover .popup::after {
@@ -69,4 +70,31 @@ img:hover {
 .hover:hover .popup {
     visibility: visible;
     opacity: 1;
+}
+
+table {
+    width: 1000px;
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    padding: 7px;
+}
+
+tr td {
+    font-size: 20px;
+    text-align: center;
+}
+
+tr td a {
+    text-decoration: none;
+    color: rgb(255, 70, 85);
+}
+
+.bereich {
+    font-size: 25px;
+}
+
+tr td a:hover {
+    text-decoration: underline;
 }
