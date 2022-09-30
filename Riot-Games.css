@@ -9,17 +9,21 @@
     text-align: center;
     padding: 10px;
     width: fit-content;
-    margin-left: 40%;
     margin-top: 3%;
     font-size: 40px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
+    align-self: center;
 }
 
-section {
-    display: inline-block;
-    padding-top: 15px;
-    text-align: center;
-    margin: 0;
-    width: 100%;
+p {
+    background-color: white;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 0;
+    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
