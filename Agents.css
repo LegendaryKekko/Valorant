@@ -76,6 +76,7 @@ h1 {
 
 .hover:hover {
     transform: translateX(-15px) translateY(-10px);
+    transition: 0.5s;
 }
 
 table {
