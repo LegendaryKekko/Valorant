@@ -29,6 +29,10 @@
     text-decoration: none;
 }
 
+.navbar li img {
+    padding: 7px;
+}
+
 li a {
     display: block;
     padding: 8px;

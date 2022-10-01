@@ -52,13 +52,13 @@ p {
     margin-right: 10%;
 }
 
-img {
+div img {
     width: 5%;
     height: auto;
     margin-right: 20px;
 }
 
-img:hover {
+div img:hover {
     scale: 1.1;
 }
 
