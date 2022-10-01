@@ -47,6 +47,8 @@
         background-color: white;
         padding: 8px;
         visibility: hidden;
+        box-shadow: -5px 5px 5px;
+        margin-top: 0;
     }
     
     .hover .popup::after {

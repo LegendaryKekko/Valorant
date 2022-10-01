@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-nav ul li a {
+li a {
     display: block;
     padding: 8px;
 }
@@ -37,7 +37,7 @@ nav ul li a {
     background-color: rgb(255, 70, 85);
 }
 
-nav ul li a:hover {
+li a:hover {
     background-color: rgb(255, 70, 85);
 }
 
