@@ -82,6 +82,7 @@ h3 {
     visibility: hidden;
     box-shadow: -5px 5px 5px;
     margin-top: 0;
+    z-index: 0;
 }
 
 .hover .popup::after {

@@ -62,6 +62,7 @@ h1 {
     margin-right: 50px;
     box-shadow: -5px 5px 5px;
     transform: translateX(10px) translateY(-10px);
+    z-index: 0;
 }
 
 .hover .popup::after {
