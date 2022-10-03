@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Valorant;
+    src: url(Valorant\ Font.ttf);
+}
+
+.headline {
+    font-family: 'Valorant';
+    background-color: rgb(255, 70, 85);
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 40px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+}
+
+h2 {
+    font-family: 'Valorant';
+    font-size: 30px;
+    background-color: rgb(255, 70, 85);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+h3 {
+    font-family: 'Valorant';
+    font-size: 25px;
+    background-color: rgb(255, 70, 85);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+p {
+    background-color: white;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 0;
+    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
