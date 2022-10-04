@@ -26,14 +26,82 @@ h1 {
     margin-top: 30px;
 }
 
-p {
+.util .hover img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: -5px 5px 5px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+.util {
+    margin-top: 75px;
+}
+
+.hover {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.popup {
+    visibility: hidden;
     background-color: white;
     font-size: 20px;
-    box-shadow: -5px 5px 5px;
-    border-radius: 20px;
+    position: absolute;
+    opacity: 0;
+    left: 100px;
+    width: 700px;
+    height: fit-content;
     padding: 7px;
-    margin-top: 0;
-    margin-right: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-radius: 20px;
+    margin-right: 50px;
+    box-shadow: -5px 5px 5px;
+    transform: translateX(10px) translateY(-10px);
+}
+
+.hover .popup::after {
+    content: "";
+    position: absolute;
+}
+
+.hover:hover .popup {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover:hover {
+    transform: translateX(-15px) translateY(-10px);
+    transition: 0.5s;
+}
+
+table {
+    width: 1000px;
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    padding: 7px;
+}
+
+tr td {
+    font-size: 20px;
+    text-align: center;
+}
+
+tr td a {
+    text-decoration: none;
+    color: rgb(255, 70, 85);
+}
+
+.bereich {
+    font-size: 25px;
+}
+
+tr td a:hover {
+    text-decoration: underline;
 }
