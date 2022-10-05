@@ -60,6 +60,19 @@ h3 {
     margin-right: 10%;
 }
 
+a {
+    color: rgb(255, 70, 85);
+}
+
+.head {
+    color: black;
+}
+
+a:hover.head {
+    text-decoration: none;
+    color: black;
+}
+
 .Spiel {
     list-style-type: none;
     align-self: center;
