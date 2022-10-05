@@ -46,6 +46,7 @@ p {
     align-self: center;
     font-family: 'Valorant';
     font-size: 25px;
+    max-width: fit-content;
 }
 
 .nav a {
