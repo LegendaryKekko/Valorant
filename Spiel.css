@@ -49,6 +49,17 @@ h3 {
     align-self: center;
 }
 
+.p {
+    background-color: white;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .Spiel {
     list-style-type: none;
     align-self: center;
