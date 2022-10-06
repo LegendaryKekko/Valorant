@@ -42,6 +42,10 @@ p {
     margin-right: 50px;
 }
 
+p a {
+    color: rgb(255, 70, 85);
+}
+
 .nav {
     align-self: center;
     font-family: 'Valorant';

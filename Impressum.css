@@ -15,3 +15,35 @@
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
 }
+
+h1 {
+    font-size: 40px;
+    background-color: rgb(255, 70, 85);
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    width: fit-content;
+    align-self: center;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: rgb(255, 70, 85);
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+    width: fit-content;
+    align-self: center;
+}
+
+p {
+    background-color: white;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
