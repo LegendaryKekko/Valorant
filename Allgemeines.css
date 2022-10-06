@@ -1,6 +1,10 @@
-ont-face {
+Font-face {
     font-family: Valorant;
     src: url(Valorant\ Font.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .headline {

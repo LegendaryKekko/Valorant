@@ -3,6 +3,10 @@
     src: url(Valorant\ Font.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .headline {
     font-family: 'Valorant';
     background-color: rgb(255, 70, 85);
@@ -40,7 +44,7 @@ h2 {
 
 h3 {
     font-family: 'Valorant';
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgb(255, 70, 85);
     padding: 8px;
     border-radius: 20px;
@@ -115,4 +119,13 @@ a:hover.head {
 
 a:hover {
     text-decoration: underline;
+}
+
+.Orbs {
+    justify-content: space-between;
+    align-self: center;
+}
+
+img {
+    align-self: center;
 }
