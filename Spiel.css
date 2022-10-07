@@ -153,10 +153,6 @@
         align-content: space-between;
     }
     
-    .Spikes p {
-        color: rgb(255, 70, 85);
-    }
-    
     .Spike {
         display: flex;
         flex-direction: column;
