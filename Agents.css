@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     font-family: 'Valorant';
     font-size: 30px;

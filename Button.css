@@ -1,0 +1,17 @@
+.back-to-top {
+    background: rgb(255, 70, 85);
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    z-index: 100;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px;
+}
+
+.back-to-top:hover {
+    background: white;
+}

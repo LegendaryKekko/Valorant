@@ -3,6 +3,10 @@
     src: url(Valorant\ Font.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .headline {
     font-family: 'Valorant';
     background-color: rgb(255, 70, 85);
@@ -40,6 +44,10 @@ p {
     float: right;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+p a {
+    color: rgb(255, 70, 85);
 }
 
 .nav {

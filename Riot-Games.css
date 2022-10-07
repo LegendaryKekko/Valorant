@@ -3,6 +3,10 @@
     src: url(Valorant\ Font.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .headline {
     font-family: 'Valorant';
     background-color: rgb(255, 70, 85);
@@ -16,6 +20,16 @@
     align-self: center;
 }
 
+.Map {
+    width: 1014px;
+    height: 570px;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px;
+    color: black;
+}
+
 p {
     background-color: white;
     font-size: 20px;
@@ -26,4 +40,8 @@ p {
     margin-right: 30%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+p a {
+    color: rgb(255, 70, 85);
 }
