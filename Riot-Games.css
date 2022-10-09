@@ -45,3 +45,9 @@ p {
 p a {
     color: rgb(255, 70, 85);
 }
+
+.img {
+    align-self: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
