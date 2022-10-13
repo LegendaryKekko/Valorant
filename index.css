@@ -32,3 +32,11 @@ p {
     margin-right: 10%;
     text-align: center;
 }
+
+.gif {
+    width: 836px;
+    height: 471px;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px;
+}
