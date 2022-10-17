@@ -1,5 +1,4 @@
 #Button {
-    display: none;
     background: rgb(255, 70, 85);
     color: black;
     position: fixed;
@@ -11,7 +10,9 @@
     height: fit-content;
     border-radius: 20px;
     box-shadow: -5px 5px 5px;
+    cursor: pointer;
     border: none;
+    visibility: hidden;
 }
 
 #Button:hover {

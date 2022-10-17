@@ -6,10 +6,10 @@ window.onscroll = function() {
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        Button.style.display = "block";
+        Button.style.visibility = "visible";
 
     } else {
-        Button.style.display = "none";
+        Button.style.visibility = "hidden";
     }
 }
 
