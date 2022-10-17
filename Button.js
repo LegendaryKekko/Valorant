@@ -4,12 +4,21 @@ window.onscroll = function() {
     scrollFunction();
 };
 
+
+
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        Button.style.visibility = "visible";
+
+        var element = document.getElementById("Button");
+        element.classList.remove("b-hidden");
+        element.classList.add("b-shown");
+
 
     } else {
-        Button.style.visibility = "hidden";
+        var element = document.getElementById("Button");
+        element.classList.remove("b-shown");
+        element.classList.add("b-hidden");
+
     }
 }
 

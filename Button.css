@@ -12,9 +12,19 @@
     box-shadow: -5px 5px 5px;
     cursor: pointer;
     border: none;
-    visibility: hidden;
 }
 
 #Button:hover {
     background: white;
+}
+
+.b-shown {
+    transition: opacity 400ms linear;
+    transform: translate(0);
+    opacity: 1;
+}
+
+.b-hidden {
+    transform: translate(9999px);
+    opacity: 0;
 }
